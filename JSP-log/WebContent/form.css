@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.pic{
+	float:left;
+}
+.login{
+	float:center;
+	font-size:20px;
+}
+.label_username{
+	height:20px;
+	width:30px;
+}
+.label_pwd{
+	height:20px;
+	width:30px;
+}
