@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#recruit{
+	width:100%;
+	border-collapse:collapse;
+	text-align:center;
+}
+/*设置单元格样式*/
+#recruit td,#recruit th{
+	border:1px solid orange;
+	padding:7px;
+}
+/*设置标题单元格样式*/
+#recruit th{
+	background-color:orange;
+	color:#FFFFFF;
+}
+.orange{
+	background-color:#FFEDDB;
+}
