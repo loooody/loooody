@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>调查问卷</title>
+<link rel="stylesheet" style="text/css" href="questionnaire.css" >
+</head>
+<body>
+	<div id="container">
+	<!-- 标题 -->
+	<h1>手机移动支付业务问卷调查</h1>
+	<hr />
+	<form method="post">
+		<ol>
+			<li>您的教育程度是？<br />
+			<label><input type="radio" name="ql" checked/>高中</label>
+			<label><input type="radio" name="ql" />大专</label>
+			<label><input type="radio" name="ql" />本科</label>
+			<label><input type="radio" name="ql" />其他</label>
+		
+		
+			<li>您的年龄是？<br />
+			<label><input type="radio" name="ql2" checked/>18岁以下</label>
+			<label><input type="radio" name="ql2" />18-25岁</label>
+			<label><input type="radio" name="ql2" />26-40岁</label>
+			<label><input type="radio" name="ql2" />40岁以上</label>
+		
+			<li>您是否经常使用手机移动支付业务?<br />
+			<label><input type="radio" name="ql3" checked/>从未听说过</label>
+			<label><input type="radio" name="ql3" />偶尔使用</label>
+			<label><input type="radio" name="ql3" />经常使用</label>
+			<label><input type="radio" name="ql3" />其他</label>
+		
+			<li>您看重以下哪些支付业务?<br />
+			<label><input type="checkbox" name="ql4" checked/>话费/游戏币充值</label><br />
+			<label><input type="checkbox" name="ql4" />刷手机加油</label><br />
+			<label><input type="checkbox" name="ql4" />刷手机购物</label><br />
+			<label><input type="checkbox" name="ql4" />其他</label><br />
+		</ol>
+		<label>您的姓名<input type="text" name="nam"/></label>
+		<label>您的职业<input type="text" name="ame"/></label>
+		<label>联系电话<input type="tel" name="nme"/></label>
+	</form>
+	<button type="submit">提交</button>
+	</div>
+</body>
+</html>
