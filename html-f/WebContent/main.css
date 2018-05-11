@@ -1,0 +1,62 @@
+@charset "UTF-8";
+body{
+	background-color:#CCCCCC;
+	margin:0px auto;
+	padding:0px;
+	max-width:990px;
+	font-size:14px;
+}
+/*页眉*/
+header{
+	height:330px;
+	text-align:center;
+	width:990px;
+	border:1px solid red;
+}
+/*容器*/
+#container{
+	text-align:center;
+	width:990px;
+	margin:0px auto;
+}
+/*左侧栏*/
+aside#leftAside{
+	float:left;
+	width:200px;
+	height:350px;
+	text-align:center;
+	background-color:#E1E0DB;
+	border:1px solid red;
+}
+section{
+	float:left;
+}
+/*图片轮廓*/
+section#slider{
+	float:left;
+	width:520px;
+	height:350px;
+	text-align:center;
+	margin-left:5px;
+	border:1px solid red;
+}
+/*右侧栏*/
+aside#rightAside{
+	float:left;
+	width:250px;
+	height:350px;
+	text-align:center;
+	overflow:hidden;
+	margin-left:5px;
+	background-color:#E1E0DB;
+	border:1px solid red;
+}
+/*页脚*/
+footer{
+	text-align:center;
+	vertical-align:middle;
+	height:70px;
+	float:left;
+	width:990px;
+	border:1px solid red;
+}
