@@ -1,0 +1,79 @@
+@charset "UTF-8";
+body{
+	background-color:#CCCCCC;
+	padding:0px;
+}
+header{
+	width:1500px;;
+	height:200px;
+	font-size:15px;
+	margin:0px auto;
+	text-align:center;
+	border:1px solid red;
+}
+#container{
+	width:1500px;
+	font-size:16px;
+	height:300px;
+	padding:0px;
+	margin:0px auto;
+}
+#asideleft{
+	width:300px;
+	height:300px;
+	float:left;
+	text-align:center;
+	border:1px solid red;
+}
+#content{
+	width:694px;
+	height:300px;
+	float:left;
+	text-align:center;
+	border:1px solid red;
+}
+#asideright{
+	width:500px;
+	height:300px;
+	float:left;
+	text-align:center;
+	border:1px solid red;
+}
+#notice{
+	width:1500px;
+	height:200px;
+	margin:0px auto;
+	border:1px solid red;
+}
+footer{
+	width:1500px;
+	height:70px;
+	margin:0px auto;
+	border:1px solid red;
+}
+aside#asideleft h1{
+	height:40px;
+	margin:0px;
+	border:1px solid red;
+}
+aside#asideleft div{
+	height:126px;
+	text-align:center;
+	margin:0px;
+	border:1px solid red;
+}
+#notice h1{
+	height:40px;
+	margin:0px;
+	width:1500px;
+	text-align:center;
+	border:1px solid red;
+}
+#notice table{
+	margin:1px;
+}
+#notice td{
+	height:73px;
+	margin:0px;
+	border:1px solid red;
+}
